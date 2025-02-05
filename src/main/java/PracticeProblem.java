@@ -37,8 +37,7 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
 		System.out.print("In: ");
 		String word = input.nextLine();
-		System.out.print(word);
-		System.out.println(" was the text you wrote");
+		System.out.println(word + " was the text you wrote");
 	}
 
 
@@ -57,8 +56,7 @@ public class PracticeProblem {
 		System.out.print("In: ");
 		boolean trueFalse = input.nextBoolean();
 		input.nextLine();
-		System.out.print(trueFalse);
-		System.out.println(" is a boolean");
+		System.out.println(trueFalse + " is a boolean");
 	}
 
 	public static void q6() {
